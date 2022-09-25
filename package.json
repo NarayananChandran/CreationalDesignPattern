@@ -1,0 +1,25 @@
+{
+  "name": "creationaldesignpattern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build" : "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NarayananChandran/CreationalDesignPattern.git"
+  },
+  "author": "Narayanan Chandran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NarayananChandran/CreationalDesignPattern/issues"
+  },
+  "homepage": "https://github.com/NarayananChandran/CreationalDesignPattern#readme",
+  "dependencies": {
+    "typescript": "^4.8.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}

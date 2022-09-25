@@ -23,6 +23,13 @@ npm i
 node build
 ```
 
+# Code
+
+| Name | README | Code |
+| ------ | ------ |------ |
+| Creational | [Singleton/README.md][SingletonRdMe] |
+| | | |
+
 > Note: You can import in `Visual Studio Code`, already have launch.json file, you dont need to compile/build, you can directly run
 
 ## License
@@ -35,3 +42,4 @@ MIT
    [Motivation]: <>
    [Structure]: <>
    [Code example]: <>
+   [SingletonRdMe]: <https://github.com/NarayananChandran/CreationalDesignPattern/blob/main/src/Singleton/README.md>

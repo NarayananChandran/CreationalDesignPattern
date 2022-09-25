@@ -2,9 +2,6 @@
 
 Design pattern are typical soultion to commonly occuring problems in software design. They are like pre-made blueprints that you can customize to solve a recurring design problem in your code
 
-- Type some Markdown on the left
-- See HTML in the right
-- ✨Magic ✨
 
 ## Here it consist of
 

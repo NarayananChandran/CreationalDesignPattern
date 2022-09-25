@@ -27,7 +27,7 @@ node build
 
 | Name | README | Code |
 | ------ | ------ |------ |
-| Creational | [Singleton/README.md][SingletonRdMe] |
+| Singleton | [Singleton/README.md][SingletonRdMe] | [Singleton/Singleton.ts][SingletonRdCode]|
 | | | |
 
 > Note: You can import in `Visual Studio Code`, already have launch.json file, you dont need to compile/build, you can directly run
@@ -43,3 +43,4 @@ MIT
    [Structure]: <>
    [Code example]: <>
    [SingletonRdMe]: <https://github.com/NarayananChandran/CreationalDesignPattern/blob/main/src/Singleton/README.md>
+   [SingletonRdCode]: <https://github.com/NarayananChandran/CreationalDesignPattern/blob/main/src/Singleton/Singleton.ts>

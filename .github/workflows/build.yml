@@ -1,4 +1,4 @@
-name: Samflow CLI test
+name: Creational Design Pattern
 on:
   pull_request:
     types:

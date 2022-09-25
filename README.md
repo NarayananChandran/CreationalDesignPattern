@@ -30,7 +30,9 @@ node build
 | Singleton | [Singleton/README.md][SingletonRdMe] | [Singleton/Singleton.ts][SingletonRdCode]|
 | | | |
 
-> Note: You can import in `Visual Studio Code`, already have launch.json file, you dont need to compile/build, you can directly run
+> Note: You can import in `Visual Studio Code`, already have launch.json file, you dont need to compile/build, you can directly run, Select the desire ts file and select Start Debugging from Run Main menu.
+
+S
 
 ## License
 

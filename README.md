@@ -9,7 +9,7 @@ Design pattern are typical soultion to commonly occuring problems in software de
 
 - [Intent] - of pattern to describe problem and solution
 - [Structure] - pictorial representation of classes & interfaces are organised
-- [Code Example] - ✨Runable code... ✨
+- [Code Example] - ✨Runable code ... ✨
 
 ## Installation
 

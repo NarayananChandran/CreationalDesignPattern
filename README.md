@@ -28,6 +28,7 @@ node build
 | Name | README | Code |
 | ------ | ------ |------ |
 | Singleton | [Singleton/README.md][SingletonRdMe] | [Singleton/Singleton.ts][SingletonRdCode]|
+| Factory Method | [FactoryMethod/README.md][FactoryMethodRdMe] | [FactoryMethod/Singleton.ts][FactoryMethodRdCode]|
 | | | |
 
 > Note: You can import in `Visual Studio Code`, already have launch.json file, you dont need to compile/build, you can directly run, Select the desire ts file and select Start Debugging from Run Main menu.
@@ -46,3 +47,5 @@ MIT
    [Code example]: <>
    [SingletonRdMe]: <https://github.com/NarayananChandran/CreationalDesignPattern/blob/main/src/Singleton/README.md>
    [SingletonRdCode]: <https://github.com/NarayananChandran/CreationalDesignPattern/blob/main/src/Singleton/Singleton.ts>
+   [FactoryMethodRdMe]: <https://github.com/NarayananChandran/CreationalDesignPattern/blob/main/src/FactoryMethod/README.md>
+   [FactoryMethodRdCode]: <https://github.com/NarayananChandran/CreationalDesignPattern/tree/main/src/FactoryMethod>

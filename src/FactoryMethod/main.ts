@@ -1,9 +1,10 @@
 import { Cinthol } from "./Cinthol";
-import { ConcreteCreator } from "./ConcreteCreator";
+import { ConcreteCreator1 } from "./ConcreteCreator1";
+import { ConcreteCreator2 } from "./ConcreteCreator2";
 import { Medmix } from "./Medmix";
 
-const a = new ConcreteCreator<Medmix>();
-console.log(a.someOperations(Medmix));
+const medmix = new ConcreteCreator1();
+console.log(medmix.someOperations());
 
-const b = new ConcreteCreator<Cinthol>();
-console.log(b.someOperations(Cinthol));
+const cinthol = new ConcreteCreator2();
+console.log(cinthol.someOperations());

@@ -1,10 +1,10 @@
 import  {Soap}  from "./Soap";
 
-export abstract class Creator<T extends Soap> {
-    public abstract factoryMethod<T extends Soap>(c : {new(): T }): T ;
+export abstract class Creator{
+    public abstract factoryMethod(): Soap ;
 
-    public someOperations( a: { new(): T extends Soap ? any : any } ): string {
-        const soap = this.factoryMethod<T extends Soap? any: any>(a);
+    public someOperations(): string {
+        const soap = this.factoryMethod();
         return soap.operation();
     }
 }

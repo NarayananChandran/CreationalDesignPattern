@@ -1,9 +1,10 @@
+import { Cinthol } from "./Cinthol";
 import { Creator } from "./Creator";
 import { Soap } from "./Soap";
 
-export class ConcreteCreator<T extends Soap> extends Creator<Soap> {
-    public factoryMethod<T extends Soap>(c : { new() : T }): T {
-        return new c();
+export class ConcreteCreator2 extends Creator {
+    public factoryMethod():  Soap{
+        return new Cinthol();
     }
     
 

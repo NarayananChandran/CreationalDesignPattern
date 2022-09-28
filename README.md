@@ -28,7 +28,7 @@ node build
 | Name | README | Code |
 | ------ | ------ |------ |
 | Singleton | [Singleton/README.md][SingletonRdMe] | [Singleton/Singleton.ts][SingletonRdCode]|
-| Factory Method | [FactoryMethod/README.md][FactoryMethodRdMe] | [FactoryMethod/Singleton.ts][FactoryMethodRdCode]|
+| Factory Method | [FactoryMethod/README.md][FactoryMethodRdMe] | [FactoryMethod/][FactoryMethodRdCode]|
 | | | |
 
 > Note: You can import in `Visual Studio Code`, already have launch.json file, you dont need to compile/build, you can directly run, Select the desire ts file and select Start Debugging from Run Main menu.

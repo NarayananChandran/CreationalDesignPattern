@@ -1,6 +1,6 @@
 # Factory Method Creational Design Pattern on TypeScript
 
-[AbstractFactory] is a creational design pattern that lets you produce families of related objects without specifying their concrete class.
+[FactoryMethod] is a creational design pattern that provides an interface for creating objects in a superclass but allow subclass to alter the type of objects that will be created.
 
 
 # Problem
@@ -11,23 +11,12 @@
 - As a result you will endup with pretty nasty code.
 
 # Class Diagram 
-![image-20220928-041513](https://user-images.githubusercontent.com/2398607/193299920-3ec94d31-851c-4f34-be67-2a374c342e47.png)
+![image-20220928-041513](https://user-images.githubusercontent.com/2398607/192848800-a1bc6ed0-8bcc-437d-aff5-d79d72e1b815.png)
 
 # Solution
-- Abstract Product  decalres interfaces for a set of distinct but related products which make up a product family. In above exmaple we have [Chair.ts] and [Table.ts].
-- Concrete Products implementation od the abstract product, it implements all the variants of the product. In example we are implementing [ModernChair.ts], [ModerTable.ts] , [ClassicChair.ts] and [ClassicTable.ts].
-- Abstract Factory declared interface set of methods for creating abstracr products. [Factory.ts].
-- Concrete Factories implement creational methods of abstract factory. Each concrete factory corresponds to specific variant of the product. [ClassicFactory.ts] and [ModernFactory.ts].
+- The Product declares the interface, which is common to all the objects that can be produced by the creator and its subclass.
+- Concrete Products are different implementations of the product interface.
+- The Creator class declares the factory method that return new product objects. Its important that the return type of this method matches the product interface. You can declare the factory method as abstract to force all subclasses to implement their own version of the method. As an alternative, the base factory method can return some default product type.
+- Concrete Creators override the base factory method so it return a different type of product. Note that facoty method doesnt have to create new instances all the time. It can also return existing objects from a cache, an object pool or another source.
 
-[AbstractFactory]: <>
-[Chair.ts]: <https://github.com/NarayananChandran/CreationalDesignPattern/blob/main/src/AbstractFactory/Chair.ts>
-[Table.ts]: <https://github.com/NarayananChandran/CreationalDesignPattern/blob/main/src/AbstractFactory/Table.ts>
-[ModernChair.ts]: <https://github.com/NarayananChandran/CreationalDesignPattern/blob/main/src/AbstractFactory/Modern/ModernChair.ts>
-[ModerTable.ts]: <https://github.com/NarayananChandran/CreationalDesignPattern/blob/main/src/AbstractFactory/Modern/ModernTable.ts>
-
-[ClassicChair.ts]: <https://github.com/NarayananChandran/CreationalDesignPattern/blob/main/src/AbstractFactory/Classic/ClassicChair.ts>
-[ModerTable.ts]: <https://github.com/NarayananChandran/CreationalDesignPattern/blob/main/src/AbstractFactory/Modern/ModernTable.ts>
-[ClassicTable.ts]: <https://github.com/NarayananChandran/CreationalDesignPattern/blob/main/src/AbstractFactory/Classic/ClassicTable.ts>
-[Factory.ts]: <https://github.com/NarayananChandran/CreationalDesignPattern/blob/main/src/AbstractFactory/Factory.ts>
-[ClassicFactory.ts]: <https://github.com/NarayananChandran/CreationalDesignPattern/blob/main/src/AbstractFactory/ConcreteFactory/ClassicFactory.ts>
-[ModernFactory.ts]: <https://github.com/NarayananChandran/CreationalDesignPattern/blob/main/src/AbstractFactory/ConcreteFactory/ModernFactory.ts>
+[FactoryMethod]: <>

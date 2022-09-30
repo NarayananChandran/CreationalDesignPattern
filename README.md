@@ -27,8 +27,9 @@ node build
 
 | Name | README | Code | execute file |
 | ------ | ------ |------ |------ |
-| Singleton | [Singleton/README.md][SingletonRdMe] | [Singleton/Singleton.ts][SingletonRdCode]| [Singleton/Singleton.ts][SingletonRdCode]|
-| Factory Method | [FactoryMethod/README.md][FactoryMethodRdMe] | [FactoryMethod/][FactoryMethodRdCode]|[FactoryMethod/main.ts][FactoryMethodRdExeCode]|
+| Singleton | [Singleton/README.md][SingletonRdMe] | [Singleton/Singleton.ts][SingletonRdCode]| node dist/[Singleton/Singleton.ts][SingletonRdCode]|
+| Factory Method | [FactoryMethod/README.md][FactoryMethodRdMe] | [FactoryMethod/][FactoryMethodRdCode]|node dist/[FactoryMethod/main.ts][FactoryMethodRdExeCode]|
+| Abstract Factory | [AbstractFactory/README.md][AbstractFactoryRdMe] | [AbstractFactory/][AbstractFactoryRdCode]|node dist/[AbstractFactory/main.ts][AbstractFactoryRdExeCode]|
 | | | |
 
 > Note: You can import in `Visual Studio Code`, already have launch.json file, you dont need to compile/build, you can directly run, Select the desire ts file and select Start Debugging from Run Main menu.
@@ -50,3 +51,7 @@ MIT
    [FactoryMethodRdMe]: <https://github.com/NarayananChandran/CreationalDesignPattern/blob/main/src/FactoryMethod/README.md>
    [FactoryMethodRdCode]: <https://github.com/NarayananChandran/CreationalDesignPattern/tree/main/src/FactoryMethod>
    [FactoryMethodRdExeCode]: <https://github.com/NarayananChandran/CreationalDesignPattern/tree/main/src/FactoryMethod/main.ts>
+   [AbstractFactoryRdMe]: <https://github.com/NarayananChandran/CreationalDesignPattern/blob/main/src/AbstractFactory/README.md>
+   [AbstractFactoryRdCode]: <https://github.com/NarayananChandran/CreationalDesignPattern/tree/main/src/AbstractFactory>
+   [AbstractFactoryRdExeCode]: <https://github.com/NarayananChandran/CreationalDesignPattern/blob/main/src/AbstractFactory/main.ts>
+   

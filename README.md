@@ -27,9 +27,9 @@ node build
 
 | Name | README | Code | execute file |
 | ------ | ------ |------ |------ |
-| Singleton | [Singleton/README.md][SingletonRdMe] | [Singleton/Singleton.ts][SingletonRdCode]| node dist/[Singleton/Singleton.ts][SingletonRdCode]|
-| Factory Method | [FactoryMethod/README.md][FactoryMethodRdMe] | [FactoryMethod/][FactoryMethodRdCode]|node dist/[FactoryMethod/main.ts][FactoryMethodRdExeCode]|
-| Abstract Factory | [AbstractFactory/README.md][AbstractFactoryRdMe] | [AbstractFactory/][AbstractFactoryRdCode]|node dist/[AbstractFactory/main.ts][AbstractFactoryRdExeCode]|
+| Singleton | [Singleton/README.md][SingletonRdMe] | [Singleton/Singleton.ts][SingletonRdCode]| node dist/[Singleton/Singleton.js][SingletonRdCode]|
+| Factory Method | [FactoryMethod/README.md][FactoryMethodRdMe] | [FactoryMethod/][FactoryMethodRdCode]|node dist/[FactoryMethod/main.js][FactoryMethodRdExeCode]|
+| Abstract Factory | [AbstractFactory/README.md][AbstractFactoryRdMe] | [AbstractFactory/][AbstractFactoryRdCode]|node dist/[AbstractFactory/main.js][AbstractFactoryRdExeCode]|
 | | | |
 
 > Note: You can import in `Visual Studio Code`, already have launch.json file, you dont need to compile/build, you can directly run, Select the desire ts file and select Start Debugging from Run Main menu.

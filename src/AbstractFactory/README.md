@@ -1,4 +1,4 @@
-# Factory Method Creational Design Pattern on TypeScript
+# Abstract Factory Creational Design Pattern on TypeScript
 
 [AbstractFactory] is a creational design pattern that lets you produce families of related objects without specifying their concrete class.
 
